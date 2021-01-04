@@ -4,14 +4,14 @@ characters. What if you cannot use additional data structures?
 """
 
 
-def isUnique(string):
+def is_unique(string):
     """Return true/false if a string has all unique characters.
 
-    >>> isUnique('abcdef')
+    >>> is_unique('abcdef')
     True
-    >>> isUnique('hello')
+    >>> is_unique('hello')
     False
-    >>> isUnique('Aabc')
+    >>> is_unique('Aabc')
     False
     """
 
@@ -25,15 +25,15 @@ def isUnique(string):
     return True
 
 
-def isUniqueNoDS(string):
+def is_unique_no_ds(string):
     """Return true/false if a string has all unique characters without the use of
     a data structure.
 
-    >>> isUniqueNoDS('abcdef')
+    >>> is_unique_no_ds('abcdef')
     True
-    >>> isUniqueNoDS('hello')
+    >>> is_unique_no_ds('hello')
     False
-    >>> isUniqueNoDS('Aabc')
+    >>> is_unique_no_ds('Aabc')
     False
     """
 

@@ -1,11 +1,11 @@
-'''
+"""
 Is Unique: Implement an algorithm to determine if a string has all unique
 characters. What if you cannot use additional data structures?
-'''
+"""
+
 
 def isUnique(string):
-    '''
-    Return true/false if a string has all unique characters
+    """Return true/false if a string has all unique characters.
 
     >>> isUnique('abcdef')
     True
@@ -13,7 +13,7 @@ def isUnique(string):
     False
     >>> isUnique('Aabc')
     False
-    '''
+    """
 
     seen = set()
 
@@ -24,10 +24,10 @@ def isUnique(string):
 
     return True
 
+
 def isUniqueNoDS(string):
-    '''
-    Return true/false if a string has all unique characters without the use of
-    a data structure
+    """Return true/false if a string has all unique characters without the use of
+    a data structure.
 
     >>> isUniqueNoDS('abcdef')
     True
@@ -35,7 +35,7 @@ def isUniqueNoDS(string):
     False
     >>> isUniqueNoDS('Aabc')
     False
-    '''
+    """
 
     sorted_str = sorted(string.lower())
 
